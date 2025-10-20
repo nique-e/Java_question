@@ -8,8 +8,11 @@
             rev = rev + str.charAt(i);
         }
 
-        System.out.println(rev);
-
-        
+        if(str.equals(rev)){
+            System.out.println(str+ ": is a palindrome");
+        }
+        else{
+            System.out.println(str+" : is not palindrome");
+        }
     }
  }
