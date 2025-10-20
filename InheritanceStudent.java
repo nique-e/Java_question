@@ -15,5 +15,11 @@
  public class InheritanceStudent{
     public static void main(String[] args) {
         
+           student s1 = new student();
+        s1.name = "Nitesh";
+        s1.rollNumber = 23;
+        s1.marks = 93;
+
+        s1.display();
     }
  }
