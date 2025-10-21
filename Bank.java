@@ -33,5 +33,11 @@ public class Bank{
 
     public static void main(String[] args) {
         
+        bankAccount myAccount = new bankAccount(1000);
+
+        myAccount.displayBalance();
+        myAccount.deposit(500);
+        myAccount.withdraw(200);
+        myAccount.withdraw(2000);
     }
 }
